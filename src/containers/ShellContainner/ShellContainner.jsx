@@ -36,6 +36,10 @@ export default class ShellContainner extends Component {
     }
   }
 
+  onPageChange = (e) => {
+
+  }
+
   render() {
     return (
       <div className="uf-shell-containner">
@@ -45,7 +49,7 @@ export default class ShellContainner extends Component {
             onClick={this.onMenuChange} />
         </div>
         <div className="content">
-          {this.createPage(this.state.selectedIndex,{id: this.state.selectedIndex})}
+          {this.createPage(this.state.selectedIndex)}
         </div>
       </div>
     )
