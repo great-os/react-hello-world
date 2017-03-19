@@ -1,0 +1,12 @@
+.uf-shell-containner {
+  text-align: initial;
+}
+.uf-shell-containner .menu-group {
+  float: left;
+  border: 1px solid black;
+}
+
+.uf-shell-containner .content {
+  border: 1px solid red;
+  display: -webkit-box;
+}

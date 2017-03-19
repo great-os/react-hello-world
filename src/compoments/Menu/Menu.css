@@ -1,0 +1,24 @@
+.uf-containner-menu {
+  width: 150px;
+  height: 30px;
+  line-height: 30px;
+  background-color: #ddd;
+  margin-bottom: 2px;
+  text-align: center;
+
+  /* 禁止选中文字 */
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -khtml-user-select: none;
+  user-select: none;
+}
+
+.uf-containner-menu.selected {
+  background-color: #aaa;
+}
+
+.uf-containner-menu:hover {
+  background-color: #eee;
+  cursor: pointer;
+}
